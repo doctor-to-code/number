@@ -1,6 +1,11 @@
+a = input('請輸入數字下限')
+b = input('請輸入數字上限')
+a = int(a)
+b = int(b)
 import random
 
-r = random. randint(1, 100)
+r = random. randint(a, b)
+
 i = 0
 while True:
 	i = i + 1
